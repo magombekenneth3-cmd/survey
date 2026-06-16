@@ -8,12 +8,12 @@ const CONFIG = {
   airtable: {
     baseId: process.env.NEXT_PUBLIC_AIRTABLE_BASE_ID || "",
     tableName: "Responses",
-    token: process.env.AIRTABLE_TOKEN || "",
+    token: process.env.NEXT_PUBLIC_AIRTABLE_TOKEN || "",
   },
 
   telegram: {
-    botToken: process.env.TELEGRAM_BOT_TOKEN || "",
-    chatId: process.env.TELEGRAM_CHAT_ID || "",
+    botToken: process.env.NEXT_PUBLIC_TELEGRAM_BOT_TOKEN || "",
+    chatId: process.env.NEXT_PUBLIC_TELEGRAM_CHAT_ID || "",
   },
 };
 // ─────────────────────────────────────────────
